@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/try_new">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/main_page_toolbar"/>
+
+    <Button
+        android:id="@+id/bldbtn"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="499dp"
+        android:layout_marginEnd="122dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="bldclick"
+        android:text="Blood Zone"
+        android:textColor="#19191A"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dpbtn"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/bldbtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="122dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="dpclick"
+        android:text="Disease Prediction"
+        android:textColor="#19191A"
+        android:textStyle="bold" />
+
+</RelativeLayout>

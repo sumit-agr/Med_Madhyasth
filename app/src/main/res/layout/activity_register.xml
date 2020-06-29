@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage">
+
+    <!--Text View for Displaying Username-->
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="142dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="@font/allerta"
+        android:text="SIGN UP"
+
+        android:textAlignment="center"
+        android:textColor="#F7F6F3"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/reg_display"
+        android:fontFamily="@font/allerta"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="42dp"
+        android:textAlignment="center"
+        android:textColorHint="#F7F6F3"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="71dp"
+        android:background="@drawable/button_login"
+        android:layout_marginBottom="-69dp"
+        android:hint="UserName"
+        android:textColor="#F8F1F1"
+        android:textSize="14sp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:fontFamily="@font/allerta"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/reg_display"
+        android:background="@drawable/button_login"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="42dp"
+        android:textAlignment="center"
+        android:textColorHint="#F7F6F3"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="-69dp"
+        android:hint="Email Id"
+        android:textColor="#F8F1F1"
+        android:textSize="14sp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/reg_pass"
+        android:fontFamily="@font/allerta"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_login"
+        android:layout_alignBottom="@+id/reg_email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="-69dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColorHint="#F7F6F3"
+        android:textColor="#F8F1F1"
+        android:textSize="14sp"
+        android:inputType="textPassword"/>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="111dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@id/reg_pass"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="-64dp"
+        android:background="@drawable/button_login"
+        android:fontFamily="@font/allerta"
+        android:textAlignment="center"
+        android:textColor="#F8F1F1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="156dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/reg_pass"
+        android:layout_alignBottom="@id/reg_pass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="-89dp"
+        android:fontFamily="@font/allerta"
+        android:text="BloodGroup"
+
+        android:textAlignment="textStart"
+        android:textColor="#F8F1F1"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/reg_phn"
+        android:fontFamily="@font/allerta"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/spinner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="42dp"
+        android:textAlignment="center"
+        android:textColorHint="#F7F6F3"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="71dp"
+        android:background="@drawable/button_login"
+        android:layout_marginBottom="-69dp"
+        android:hint="PhoneNumber"
+        android:textColor="#F8F1F1"
+        android:textSize="14sp"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/reg_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="#82ADD1"
+        android:text="Register"
+        android:textColor="#F8F1F1"
+        android:textStyle="bold" />
+
+</RelativeLayout>

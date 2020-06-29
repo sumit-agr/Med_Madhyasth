@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEBEC0"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="95dp"
+        android:fontFamily="serif"
+        android:textColor="#D81B37"
+        android:text="User Profile"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/a"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="-26dp"
+        android:fontFamily="@font/allerta"
+        android:text="Name"
+        android:textColor="#292724"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/b"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="-25dp"
+        android:background="#F5FABC"
+        android:fontFamily="@font/allerta"
+
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/b"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="-54dp"
+        android:fontFamily="@font/allerta"
+        android:text="Email"
+        android:textColor="#292724"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/pemail"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/c"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="-31dp"
+        android:background="#F5FABC"
+        android:fontFamily="@font/allerta"
+
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/c"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="-59dp"
+        android:fontFamily="@font/allerta"
+        android:text="BloodGroup"
+        android:textColor="#292724"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/pbg"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/d"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="-28dp"
+        android:background="#F5FABC"
+        android:fontFamily="@font/allerta"
+
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/c"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="-113dp"
+        android:fontFamily="@font/allerta"
+        android:text="PhoneNumber"
+        android:textColor="#292724"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/phn"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/e"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="-28dp"
+        android:background="#F5FABC"
+        android:fontFamily="@font/allerta"
+
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">MedMadhyasth</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT ?</string>
+    <string name="display">Display Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="this_is_start_activity">This is Start Activity</string>
+    <string name="display_name">Display Name</string>
+    <string name="this_is_the_main_activity">This is the Main Activity</string>
+    <string name="log_out">Log Out</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="all_users">All Users</string>
+
+    <string name="create_a_new_account">Sign Up</string>
+    <string name="welcome_to_medmadyasth_app">Welcome to MedMadyasth App</string>
+    <string name="already_have_an_account">ALREADY HAVE AN ACCOUNT</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="username">Email Address</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">LOGIN</string>
+    <string name="med_madyasth">Med Madyasth</string>
+    <string name="welcome1">Welcome</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+
+    <string name="eligibility_">Eligibility Requirements</string>
+    <string name="female_">If you are female, you must:\nBe healthy and feeling well\nBe at least 18 years old in most states\nBe at least 5 ft 5 inch\nWeigh at least 150 lbs(50 Kg approx).</string>
+    <string name="male_">If you are male, you must:\nBe healthy and feeling well\nBe at least 18 years old in most states\nBe at least 5 ft 1 inch \nWeigh at least 130 lbs(55 Kg approx).\n</string>
+    <string name="info_">Giving blood saves lives. The blood you give is a lifeline in an emergency and for people who need long-term treatments. Many people would not be alive today if donors had not generously given their blood. Why we need you to give blood we need over 6000 blood donations every day to treat patients in need for people to give blood .Each year we need approximately 200000 new donors, as some donors can no longer give blood. Most people between the ages of 18-65 are able to give blood.Most people between ages of 18-65 are able to give blood. Around half our current donors are over 45. That is why we need more young people to start giving blood .</string>
+
+    <string-array name="BloodGroupList">
+        <item>Blood Group</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+    <string name="title_activity_from_donor_to_needy">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
